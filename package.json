@@ -3,7 +3,7 @@
   "displayName": "D&D Condition Helper",
   "description": "A quick way to find definitions for D&D conditions",
   "publisher": "nickbaumer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -13,12 +13,6 @@
   "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "dnd-condition-helper.dndConditionHelper",
-        "title": "D&D Condition Helper"
-      }
-    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
